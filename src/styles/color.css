@@ -1,0 +1,48 @@
+.color {
+    color: rgb(255,255,255);
+}
+.p1 {
+    color: rgb(173,244,255);
+}
+.p2 {
+    color: rgb(73,252,0);
+}
+.p3 {
+    color: rgb(191,218,255);
+}
+.p4 {
+    color: rgb(255,39,29);
+}
+.p5 {
+    color: rgb(235,183,255);
+}
+.p6 {
+    color: rgb(255,202,111);
+}
+.p7 {
+    color: rgb(230,230,230);
+}
+.p8 {
+    color: rgb(255,148,69);
+}
+.p9 {
+    color: rgb(255,238,125);
+}
+.pPerintah {
+    color: rgb(209,255,249);
+}
+.pAt {
+    color: rgb(255,205,201);
+}
+.pTag {
+    color: rgb(255,143,243);
+}
+.pDollar {
+    color: rgb(255,252,197);
+}
+.pUp {
+    color: rgb(181,255,151);
+}
+.pAnd {
+    color: rgb(254,235,255);
+}

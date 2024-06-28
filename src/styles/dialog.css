@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.dialog-box {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+}
+.dialog {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 3px;
+    background-color: rgba(10, 111, 158, 0.801);
+    max-height: 300px;
+    width: max-content;
+    height: fit-content;
+    padding: 10px;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 3px solid rgb(0, 155, 226);
+    box-shadow: 3px 3px 0 2px rgba(0, 24, 36, 0.315);
+    -ms-overflow-style: none;
+}
+.dialog::-webkit-scrollbar {
+    width: 5px;
+}
+.dialog::-webkit-scrollbar-thumb {
+    background-color: rgba(60, 180, 235, 0.5);
+    border-radius: 3px;
+    margin: 3px;
+}
+.dialog::-webkit-scrollbar-track {
+    background: none;
+}
+
+.label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.label > div:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.big {
+    font-size: 20px;
+    font-weight: bolder;
+}
